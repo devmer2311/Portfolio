@@ -1,0 +1,53 @@
+
+.education {
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .education h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .education-cards {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 10px;
+  }
+  
+  
+  .education-card {
+    background-color: #fff;
+    border: 2px solid #0073b1; 
+    padding: 10px 15px; 
+    text-align: left;  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .education-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+  
+  .education-card h3 {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  .education-card p {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .education-card span {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+  }
+  

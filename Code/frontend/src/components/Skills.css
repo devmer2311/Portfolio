@@ -1,0 +1,30 @@
+/* Skills Section */
+.skills-section {
+  display: flex;
+  flex-direction: column;   /* Makes the section content stack vertically */
+  align-items: flex-start;  /* Aligns content to the left */
+  gap: 20px;                /* Adds space between heading and skill buttons */
+  width: 100%;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;   
+  gap: 10px;          
+  justify-content: flex-start; 
+}
+
+.skill {
+  background-color: #0073b1;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.skill:hover {
+  background-color: #005582;
+}
