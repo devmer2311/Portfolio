@@ -14,7 +14,7 @@ The portfolio is built using **React**, with state management provided by React'
 ## 2. Task Output Screenshot
 
 ![Portfolio Screenshot 1](./p1.jpeg)
-![Portfolio Screenshot 2](./p2.jpeg)
+
 ![Portfolio Screenshot 2](./p3.jpeg)
 
 
